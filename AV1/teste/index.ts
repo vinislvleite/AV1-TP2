@@ -21,7 +21,7 @@ cliente.nome = `Pedro de Alcântara João Carlos Leopoldo Salvador`
 cliente.nomeSocial = `Dom Pedro II`
 cliente.dataCadastro = new Date(1840, 6, 23)
 cliente.dataNascimento = new Date(1825, 11, 2)
-cliente.telefones = [telefone1,telefone2]
+cliente.telefones = [telefone1.clonar() as Telefone,telefone2.clonar() as Telefone]
 
 let endereco = new Endereco()
 endereco.rua = `R. do Catete`
@@ -38,7 +38,7 @@ dependente.nomeSocial = `Princesa Isabel`
 dependente.dataCadastro = new Date(1921, 10, 14)
 dependente.dataNascimento = new Date(1846, 6, 29)
 dependente.endereco = (cliente.endereco.clonar() as Endereco)
-dependente.telefones = [telefone3]
+dependente.telefones = [telefone3.clonar() as Telefone]
 dependente.titular = cliente
 cliente.dependentes.push(dependente)
 
