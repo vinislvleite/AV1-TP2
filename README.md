@@ -21,3 +21,9 @@ Depois da compilação, rode:
 cd ./js/teste
 node index.js
 ```
+
+---
+
+### EasterEgg
+
+Dentro do teste/index.ts
