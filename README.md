@@ -2,7 +2,9 @@
 
 Siga os passos abaixo para compilar e rodar o projeto:
 
-### Compilar o TypeScript
+### 1- Clone o repositório
+
+### 2- Compilar o TypeScript
 
 Abra o terminal e execute:
 
@@ -13,7 +15,7 @@ npx tsc
 
 ---
 
-### Executar o projeto
+### 3- Executar o projeto
 
 Depois da compilação, rode:
 
